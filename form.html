@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Practice</title>
+  <style>
+body{
+  font-family: sans-serif;
+  
+}
+
+form{
+  margin: 50px 50px;
+}
+
+  </style>
+</head>
+<body>
+  
+  
+  <form action="#">
+
+  <fieldset>
+    <legend>Personal Information</legend>
+
+    <label for="name">Name :</label>
+    <input type="text" id="name" placeholder="Full Name"> <br><br>
+
+    <label>Date of Birth :</label>
+    <input type="date"> <br><br>
+
+    <label for="mail">Email :</label>
+    <input type="email" id="mail" placeholder="Type Email"> <br><br>
+
+    <label for="pass">Password :</label>
+    <input type="password" id="pass" placeholder="Type pass"> <br><br>
+
+    <label for="phone">Phone :</label>
+    <input type="tel" id="phone" placeholder="Full Phone Number"> <br><br>
+
+    <label>City :</label>
+    <select>
+      <option value="dhaka">Dhaka</option>
+      <option value="barishal">Barishal</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label>Zip Code :</label>
+    <input type="number" placeholder="Type zip code"> <br><br>
+
+    <label>Gender :</label>
+    <input type="radio" value="gender" name="gender"> Male
+    <input type="radio" value="gender" name="gender"> Female <br><br>
+
+    <label>Skills :</label>
+    <input type="checkbox" value="html" name="skill"> HTML
+    <input type="checkbox" value="css" name="skill"> CSS 
+    <input type="checkbox" value="java" name="skill"> Javascript <br><br>
+
+    <label for="lang">Language choose :</label>    
+    <input list="lang" name="lang">
+      <datalist id="lang">
+        <option value="English">
+        <option value="Bangla">
+        <option value="Arabic">
+        <option value="Urdo">
+        <option value="Korian">
+      </datalist>
+    <br><br>
+
+    <label> Upload CV :</label>
+    <input type="file" value="cv"> <br><br>
+
+    <textarea cols="30" rows="10" placeholder="Write your message here"></textarea> <br><br>
+
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+
+  </fieldset>
+  </form>
+
+</body>
+</html>
